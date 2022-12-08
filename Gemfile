@@ -5,17 +5,23 @@ ruby "3.1.2"
 
 gem "rails", "~> 7.0.4"
 
-gem "sprockets-rails"
-
 gem "sqlite3", "~> 1.4"
 
 gem "puma", "~> 5.0"
 
-gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+#Later added
+#======================================
+gem 'bootstrap', '~> 5.2.2'
+
+gem 'sprockets-rails', '~> 3.4', '>= 3.4.2'
 
 gem 'simple_form', '~> 5.1'
 
 gem 'jquery-rails'
+
+gem 'devise', '~> 4.8', '>= 4.8.1'
+
+#=======================================
 
 gem "importmap-rails"
 
